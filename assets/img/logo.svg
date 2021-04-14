@@ -1,0 +1,70 @@
+<svg class="img-svg" xmlns="http://www.w3.org/2000/svg" width="150" height="250">
+<defs>
+  <style type="text/css">
+    @font-face {
+      font-family: Raleway;
+      src: url("../font/20339.ttf");
+    }
+    rect, line {  
+      <!-- stroke: #660000; -->
+      stroke: white;
+      fill: none;
+    }
+    text{ 
+      font: 16px Raleway;
+      fill: white;
+      <!-- animation: move 5s infinite ease-in-out -->
+      }
+    polygon {
+      <!-- fill: #660000; -->
+      fill: white;
+    }
+    .name {
+      animation: move 5s infinite ease-in-out alternate;
+      <!-- animation-delay: backwards; -->
+    }
+    @keyframes move {
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+  <clipPath>
+  <rect x="0" y="160" width="200" height="100" />
+  </clipPath>
+
+
+</defs>
+<g>
+<rect  width="75" height="75" stroke-width="5" transform="translate(75, 20) rotate(45)"/>
+<rect  width="60" height="60" stroke-width="2" transform="translate(75, 30) rotate(45)"/>
+<rect  width="10" height="10" stroke-width="5" transform="translate(75, 5) rotate(45)"/>
+<rect  width="10" height="10" stroke-width="5" transform="translate(75, 126) rotate(45)"/>
+<rect  width="10" height="10" stroke-width="5" transform="translate(15, 65.5) rotate(45)"/>
+<rect  width="10" height="10" stroke-width="5" transform="translate(135, 65.5) rotate(45)"/>
+<line  x1="15" y1="70" x2="65" y2="20" stroke-dasharray="5 9" stroke-dashoffset="5"  stroke-width="12.5"  />
+<line  x1="15" y1="75" x2="65" y2="125" stroke-dasharray="5 9" stroke-dashoffset="5"  stroke-width="12.5"  />
+<line  x1="80" y1="15" x2="130" y2="65" stroke-dasharray="5 9" stroke-dashoffset="5"  stroke-width="12.5"  />
+<line  x1="80" y1="130" x2="130" y2="80" stroke-dasharray="5 9" stroke-dashoffset="5"  stroke-width="12.5"  />
+<rect  width="7" height="7" stroke-width="2.5"  transform="translate(45, 67.5) rotate(45)"/>
+<rect  width="7" height="7" stroke-width="2.5"  transform="translate(105, 67.5) rotate(45)"/>
+<polygon points="73,60 75,57 77,60" />
+<polygon points="73,83 75,86 77,83" />
+<polygon points="64.5,84 56.5,92 64.5,92 72.5,84"/>
+<polygon points="77.5,84 85.5,92 93.5,92 85.5,84" />
+<polygon points="66,93 66,101 74,93 74,85" />
+<polygon points="76,85 76,93 84,101 84,93" />
+<polygon points="56.5,51 64.5,59 72.5,59 64.5,51" />
+<polygon points="85.5,51 77.5,59 85.5,59 93.5,51" />
+<polygon points="74,50 74,58 66,50 66,42" />
+<polygon points="84,42 84,50 76,58 76,50" />
+<text  x="60" y="77.5">ЦПК</text>
+</g>
+
+<g class="name">
+<text x="45" y="165">ЦЕНТР</text>
+<text x="4" y="190">ПОДТВЕРЖДЕНИЯ</text>
+<text x="32" y="215">КАЧЕСТВА</text>
+</g>
+
+</svg>

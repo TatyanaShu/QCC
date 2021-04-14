@@ -1,0 +1,304 @@
+@media screen and (max-width: 1590px) {
+  .buildPictures {
+    max-width: 30%;
+  }
+  .buildPictures img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .buildPictures img {
+    width: 100%;
+  }
+  .right {
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+  td:nth-child(odd) {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .textPart {
+    font-size: 1.1em;
+  }
+  .sidebar-hover:hover ~ .sidebar-real,
+  .sidebar-real:hover {
+    max-width: 20rem;
+  }
+  .sidebar-hover:hover ~ .sections .content,
+  .sidebar-real:hover ~ .sections .content {
+    transform: translateX(20rem);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nameOfHead {
+    font-size: 5em;
+  }
+  .commonInfoPic img {
+    width: 15em;
+  }
+  .textPart {
+    font-size: 1.1em;
+    line-height: 1em;
+  }
+  .nameOfPart {
+    line-height: 1.3em;
+    font-size: 2.5rem;
+  }
+  .multiple-items {
+    width: 65vw;
+  }
+    .right {
+    font-size: 1.1em;
+    line-height: 1.4em;
+  }
+  td:nth-child(odd) {
+    width: 20%;
+  }
+  .accreditation img {
+    width: 15vw;
+  }
+  .pagination {
+    font-size: 1rem;
+    top: 20rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nameOfHead {
+    font-size: 4em;
+  }
+  textarea {
+    width: 90%;
+  }
+  .laboratory,
+  .laboratory p,
+  .laboratory video {
+    display: block;
+    width: 100%;
+  }
+  .info {
+    margin: 5px;
+  }
+  .commonInfo {
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  .nameOfHead {
+    font-size: 3em;
+  }
+  .sidebar-hover,
+  .pagination,
+  .left-part {
+    width: 10rem;
+  }
+  .sidebar-real,
+  .content {
+    left: 10rem;
+  }
+  .nav-elem{
+    height: 10rem;
+  }
+  .sidebar-hover:hover ~ .sections .content,
+  .sidebar-real:hover ~ .sections .content {
+    transform: translateX(10rem);
+  }
+  .sidebar-hover:hover ~ .sidebar-real,
+  .sidebar-real:hover {
+    max-width: 10rem;
+  }
+  .sidebar-hover:hover ~ .sections .content,
+  .sidebar-real:hover ~ .sections .content {
+    transform: translateX(10rem);
+  }
+  .pagination {
+    font-size: 1.3rem;
+    top: 15rem;
+  }
+  form {
+      font-size: 0.8em;
+  }
+  .img-svg,
+  .logo {
+    width: 100px;
+    height: 150px;
+  }
+  .contacts {
+    font-size: 1.1em;
+  }
+  .content {
+    left: 10rem;
+    width: calc(100% - 10rem);
+  }
+  .about {
+    display: block;
+  }
+  .information,
+  .accreditation,
+  .container {
+    height: auto;
+  }
+  .scroll-down {
+    font-size: 1.3em;
+  }
+  .textPart {
+    font-size: 1.1em;
+  }
+  .multiple-items {
+    width: 65vw;
+  }
+  .right {
+    font-size: 1.1em;
+    line-height: 1.4em;
+  }
+  td:nth-child(odd) {
+    width: 20%;
+  }
+  .sert_center {
+    top: 0;
+    right: 0;
+    margin-left: 10px;
+  }
+  .submit {
+    width: 30%;
+  }
+  iframe {
+    width: 50%;
+  }
+  .right {
+    font-size: 1em;
+    line-height: 1.1em;
+  }
+  .nameOfPart{
+    padding: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .commonInfoPic img {
+    display: none;
+  }  
+  form label {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 680px) {
+  .sidebar-hover,
+  .pagination,
+  .left-part,
+  .pagination {
+    width: 7rem;
+  }
+  .pagination{ 
+    font-size: 1em;
+    top: 10rem;
+  }
+  .content {
+    left: 7rem;
+    width: calc(100% - 7rem);
+  }
+  .sidebar-hover:hover ~ .sections .content,
+  .sidebar-real:hover ~ .sections .content {
+    transform: translateX(7rem);
+  }
+  .sidebar-hover:hover ~ .sidebar-real,
+  .sidebar-real:hover {
+    max-width: 7rem;
+  }
+  .sidebar-real {
+    left: 7rem;
+  }
+  .img-svg,
+  .logo {
+    width: 70px;
+    height: 100px;
+  }
+  .contacts {
+    font-size: 1em;
+    margin: 300px 10px 10px 10px;
+  }
+  .nameOfHead {
+    font-size: 2.2rem;
+    right: 2rem;
+  }
+  .wraper {
+    padding: 5px 5px;
+  }
+  .nameOfPart,
+  .textPart,
+  .copyright {
+    line-height: 1.1em;
+  }
+  .copyright{
+    font-size: 0.5em;
+    margin: 5px;
+  }
+  .about {
+    margin: 0;
+  }
+  #documents div,
+  .multiple-items,
+  .buildPictures,
+  .laboratory video,
+  .userInfo img, .rekvizity {
+    display: none;
+  }
+  .textBlock {
+    width: 100%;
+    margin: 5px;
+  }
+  .secondName {
+    font-size: 1.5em;
+    margin: 10px;
+  }
+  .nameOfPart {
+    font-size: 1.9em;
+  }
+  .commonInfo,
+  .right {
+    margin: 5px;
+  }
+  .contactsList {
+    display: block;
+  }
+  iframe {
+    width: 100%;
+  }
+  input,
+  label,
+  form .textPart {
+    width: 80%;
+  }
+  label {
+    font-size: 1.1em;
+  }
+  .nameOfPart {
+    padding: 15px;
+  }
+  .contacts {
+      font-size: 0.7em;
+      margin: 50px 5px 5px 5px;
+  }
+  .logo{
+    margin:10px;
+  }
+  .social a {
+      margin: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nameOfHead {
+    font-size: 2rem;
+    right: 2rem;
+  }
+  .headName {
+    top: 20rem;
+  }
+  .nameOfPart {
+    font-size: 1.5em;
+    padding: 5px;
+  }
+  iframe {
+    height:80%;
+  }
+}

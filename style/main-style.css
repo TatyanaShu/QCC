@@ -1,0 +1,350 @@
+@font-face {
+  font-family: "slick";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../assets/font/slick.woff") format("woff");
+}
+@font-face {
+  font-family: "Florentia ExtraLight Italic";
+  src: url("../assets/font/florentia_extralight_italic.ttf");
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font: 14px Arial;
+  color: white;
+}
+.preloader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 96, 187, 0.8);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  margin-top: 20px;
+  width: 250px;
+  background-color: white;
+  font-size: 1.5em;
+  padding: 5px;
+}
+button:hover {
+  background-color: #660000;
+}
+.skip {
+  display: none;
+}
+.nameOfPart {
+  left: 0;
+}
+.nameOfPart,
+.textPart,
+.nameOfHead,
+.headName {
+  display: block;
+}
+.nameOfHead,
+.headName,
+.img-svg,
+iframe {
+  position: absolute;
+}
+.headName,
+.wraper,
+.accreditation,
+#documents,
+.build,
+.buildWork,
+.laboratory, .slide, .userInfo, table {
+  width: 100%;
+}
+#documents div,
+.multiple-items,
+.slide, .slide img, .img1 {
+  text-align: center;
+}
+.wraper,
+header,
+.accreditation,
+#documents,
+.about,
+.buildPictures,
+.buildWork,
+.questionList,
+.laboratory, .slide, .commonInfo, .formContacts, .contactsList, .rekvizity {
+  display: flex;
+}
+.wraper,
+.sert_center,
+.tipeOfWork,
+.buildPictures,
+iframe {
+  position: relative;
+}
+.wraper,
+.buildPictures {
+  flex-wrap: wrap;
+}
+header,
+.wraper,
+.information, .slide, .formContacts, .questionList {
+  flex-direction: column;
+}
+a {
+  font-style: italic;
+  cursor: pointer;
+  color: yellow
+}
+.social a {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  float: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: white;
+}
+.telegram a:hover {
+  background: #249bd7;
+}
+.viber a:hover {
+  background: #7724d7;
+}
+
+header {
+  justify-content: space-between;
+}
+.nameOfPart,
+.textPart {
+  z-index: 700;
+}
+.visible.not-visible {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.2s 0.2s;
+}
+.nameOfPart,
+.pagination {
+  font-family: "Florentia ExtraLight Italic", Times, serif;
+}
+.nameOfPart,
+.scroll-down {
+  text-transform: uppercase;
+}
+.nameOfPart {
+  top: 6rem;
+  font-size: 4rem;
+  padding: 2rem;
+}
+.nameOfPart:hover,
+a:hover {
+  color: #2702f6;
+}
+.visible {
+  transition: transform 0.2s, opacity 0.1s, color 0.3s;
+  will-change: transform, opacity;
+}
+.textPart {
+  top: 15rem;
+  left: 2rem;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.secondName {
+  font-size: 2em;
+  margin: 10px;
+}
+.nameOfHead {
+  font: 7em "Florentia ExtraLight Italic";
+  right: 5rem;
+}
+.nameOfHead,
+.nav-elem p {
+  text-align: right;
+}
+#documents,
+.wraper {
+  padding: 20px 50px;
+}
+.headName {
+  background-color: rgba(0, 0, 0, 1);
+  top: 28rem;
+  z-index: 50;
+}
+.accreditation img {
+  width: 20vw;
+}
+.sert_center {
+  top: 10vh;
+  right: 10vw;
+}
+.information .textPart,
+#documents {
+  padding: 10px;
+}
+.additional-text,
+.information {
+  flex-grow: 2;
+}
+.textBlock,
+.copyright {
+  margin: 15px;
+}
+.textBlock {
+  width: 50%;
+}
+#documents span {
+  font-size: 50px;
+}
+.img-svg,
+.logo {
+  width: 150px;
+  height: 250px;
+}
+.logo {
+  margin: 30px;
+}
+.contacts {
+  font-size: 1.3em;
+  margin: 260px 30px 30px 30px;
+}
+.img-svg {
+  z-index: 99;
+}
+#documents div {
+  width: 30%;
+}
+.information,
+.container,
+#documents {
+  height: 70vh;
+}
+.tipeOfWork {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: -5em;
+  right:0;
+  font-size: 1.2em;
+}
+#lz-close {
+  background: url("../assets/img/close.png") no-repeat;
+}
+.slick-loading .slick-list {
+  background: #fff url("../assets/img/ajax-loader.gif") center center no-repeat;
+}
+.multiple-items {
+  width: 75vw;
+  display: flex;
+  align-items: center;
+}
+.slide {
+  justify-content: center;
+}
+.video {
+  height: 70%;
+  width: 70%;
+}
+.img1 {
+  height: 50vh;
+}
+.show {
+  display: none;
+}
+.alert{
+  border-color: red;
+	background-color: pink;
+}
+.errorList {
+  border: 2px solid red;
+}
+.container, .commonInfoPic, .formContacts {
+  flex-grow: 1;
+}
+.info {
+  flex-grow: 4;
+}
+.build {
+  height: auto;
+}
+.buildPictures,
+.laboratory video {
+  width: 40%;
+}
+.buildPictures img {
+  width: 48%;
+  margin: 5px;
+}
+.laboratory video,
+.laboratory p,
+.information,
+.container,
+#documents {
+  margin: 10px;
+}
+iframe {
+  z-index: 18;
+}
+.copyright {
+  font-size: 0.8em;
+}
+iframe {
+  z-index: 20;
+}
+.nameOfPart,
+.textPart,
+.copyright {
+  line-height: 1.5em;
+}
+.info {
+  margin: 0 30px;
+}
+.commonInfo {
+  margin: 30px 0;
+}
+.commonInfoPic img {
+  width: 30em;
+}
+
+input {
+  background-color: white;
+  height: 30px;
+  width: 30em;
+  font-size: 1em;
+}
+label {
+  font-size: 2em;
+  margin: 10px 0;
+  display: block;
+}
+form{
+  display: block;
+  padding: 5px;
+}
+.questionList p {
+  margin: 5px;
+}
+.right {
+  font-size: 1.3em;
+  line-height: 1.1em;
+   margin: 0 40px;
+}
+form span{
+  color: red;
+  display: block;
+}	
+.rekvizity {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.rekvizity p {
+  font-size: 1.3em;
+  line-height: 1em; 
+  margin: 0.5em;
+}
+
